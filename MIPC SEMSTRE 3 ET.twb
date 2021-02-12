@@ -1,0 +1,2557 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0525.1210                               -->
+<workbook original-version='18.1' source-build='2020.2.1 (20202.20.0525.1210)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='2016+ (Connexions multiples)' inline='true' name='federated.0hlrdir02f27sc1gzo5vo08jqeg9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='insc201420152016' name='excel-direct.13u0gtl0bolb5710amr4t0yfrr12'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/s2/Fnan/Data/Data/insc201420152016.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='MIPC2_20142015' name='excel-direct.0f9xwil1cf2z4218kagk914834nq'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/s2/Fnan/Data/Data/MIPC2_20142015.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0f9xwil1cf2z4218kagk914834nq' name='MIPC2 2014' table='[&apos;MIPC2 2014$&apos;]' type='table'>
+          <columns gridOrigin='A3:BG1144:no:A3:BG1144:0' header='yes' outcome='2'>
+            <column datatype='integer' name='COD_ETU' ordinal='0' />
+            <column datatype='integer' name='CNE' ordinal='1' />
+            <column datatype='real' name='Note : TLMP3104' ordinal='2' />
+            <column datatype='string' name='Résultat : TLMP3104' ordinal='3' />
+            <column datatype='integer' name='Session : TLMP3104' ordinal='4' />
+            <column datatype='integer' name='Année : TLMP3104' ordinal='5' />
+            <column datatype='real' name='Note : TLMP3204' ordinal='6' />
+            <column datatype='string' name='Résultat : TLMP3204' ordinal='7' />
+            <column datatype='integer' name='Session : TLMP3204' ordinal='8' />
+            <column datatype='integer' name='Année : TLMP3204' ordinal='9' />
+            <column datatype='real' name='Note : TLMP3304' ordinal='10' />
+            <column datatype='string' name='Résultat : TLMP3304' ordinal='11' />
+            <column datatype='integer' name='Session : TLMP3304' ordinal='12' />
+            <column datatype='integer' name='Année : TLMP3304' ordinal='13' />
+            <column datatype='real' name='Note : TLMP3404' ordinal='14' />
+            <column datatype='string' name='Résultat : TLMP3404' ordinal='15' />
+            <column datatype='integer' name='Session : TLMP3404' ordinal='16' />
+            <column datatype='integer' name='Année : TLMP3404' ordinal='17' />
+            <column datatype='real' name='Note : TLMP3504' ordinal='18' />
+            <column datatype='string' name='Résultat : TLMP3504' ordinal='19' />
+            <column datatype='integer' name='Session : TLMP3504' ordinal='20' />
+            <column datatype='integer' name='Année : TLMP3504' ordinal='21' />
+            <column datatype='real' name='Note : TLMP3604' ordinal='22' />
+            <column datatype='string' name='Résultat : TLMP3604' ordinal='23' />
+            <column datatype='integer' name='Session : TLMP3604' ordinal='24' />
+            <column datatype='integer' name='Année : TLMP3604' ordinal='25' />
+            <column datatype='real' name='Note : TLMP3004' ordinal='26' />
+            <column datatype='string' name='Résultat : TLMP3004' ordinal='27' />
+            <column datatype='integer' name='Session : TLMP3004' ordinal='28' />
+            <column datatype='integer' name='Année : TLMP3004' ordinal='29' />
+            <column datatype='real' name='Note : TLMP4104' ordinal='30' />
+            <column datatype='string' name='Résultat : TLMP4104' ordinal='31' />
+            <column datatype='integer' name='Session : TLMP4104' ordinal='32' />
+            <column datatype='integer' name='Année : TLMP4104' ordinal='33' />
+            <column datatype='real' name='Note : TLMP4204' ordinal='34' />
+            <column datatype='string' name='Résultat : TLMP4204' ordinal='35' />
+            <column datatype='integer' name='Session : TLMP4204' ordinal='36' />
+            <column datatype='integer' name='Année : TLMP4204' ordinal='37' />
+            <column datatype='real' name='Note : TLMP4304' ordinal='38' />
+            <column datatype='string' name='Résultat : TLMP4304' ordinal='39' />
+            <column datatype='integer' name='Session : TLMP4304' ordinal='40' />
+            <column datatype='integer' name='Année : TLMP4304' ordinal='41' />
+            <column datatype='real' name='Note : TLMP4404' ordinal='42' />
+            <column datatype='string' name='Résultat : TLMP4404' ordinal='43' />
+            <column datatype='integer' name='Session : TLMP4404' ordinal='44' />
+            <column datatype='integer' name='Année : TLMP4404' ordinal='45' />
+            <column datatype='real' name='Note : TLMP4504' ordinal='46' />
+            <column datatype='string' name='Résultat : TLMP4504' ordinal='47' />
+            <column datatype='integer' name='Session : TLMP4504' ordinal='48' />
+            <column datatype='integer' name='Année : TLMP4504' ordinal='49' />
+            <column datatype='real' name='Note : TLMP4604' ordinal='50' />
+            <column datatype='string' name='Résultat : TLMP4604' ordinal='51' />
+            <column datatype='integer' name='Session : TLMP4604' ordinal='52' />
+            <column datatype='integer' name='Année : TLMP4604' ordinal='53' />
+            <column datatype='real' name='Note : TLMP4004' ordinal='54' />
+            <column datatype='string' name='Résultat : TLMP4004' ordinal='55' />
+            <column datatype='integer' name='Session : TLMP4004' ordinal='56' />
+            <column datatype='integer' name='Année : TLMP4004' ordinal='57' />
+            <column datatype='integer' name='Année' ordinal='58' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0f9xwil1cf2z4218kagk914834nq' name='MIPC2 2014' table='[&apos;MIPC2 2014$&apos;]' type='table'>
+          <columns gridOrigin='A3:BG1144:no:A3:BG1144:0' header='yes' outcome='2'>
+            <column datatype='integer' name='COD_ETU' ordinal='0' />
+            <column datatype='integer' name='CNE' ordinal='1' />
+            <column datatype='real' name='Note : TLMP3104' ordinal='2' />
+            <column datatype='string' name='Résultat : TLMP3104' ordinal='3' />
+            <column datatype='integer' name='Session : TLMP3104' ordinal='4' />
+            <column datatype='integer' name='Année : TLMP3104' ordinal='5' />
+            <column datatype='real' name='Note : TLMP3204' ordinal='6' />
+            <column datatype='string' name='Résultat : TLMP3204' ordinal='7' />
+            <column datatype='integer' name='Session : TLMP3204' ordinal='8' />
+            <column datatype='integer' name='Année : TLMP3204' ordinal='9' />
+            <column datatype='real' name='Note : TLMP3304' ordinal='10' />
+            <column datatype='string' name='Résultat : TLMP3304' ordinal='11' />
+            <column datatype='integer' name='Session : TLMP3304' ordinal='12' />
+            <column datatype='integer' name='Année : TLMP3304' ordinal='13' />
+            <column datatype='real' name='Note : TLMP3404' ordinal='14' />
+            <column datatype='string' name='Résultat : TLMP3404' ordinal='15' />
+            <column datatype='integer' name='Session : TLMP3404' ordinal='16' />
+            <column datatype='integer' name='Année : TLMP3404' ordinal='17' />
+            <column datatype='real' name='Note : TLMP3504' ordinal='18' />
+            <column datatype='string' name='Résultat : TLMP3504' ordinal='19' />
+            <column datatype='integer' name='Session : TLMP3504' ordinal='20' />
+            <column datatype='integer' name='Année : TLMP3504' ordinal='21' />
+            <column datatype='real' name='Note : TLMP3604' ordinal='22' />
+            <column datatype='string' name='Résultat : TLMP3604' ordinal='23' />
+            <column datatype='integer' name='Session : TLMP3604' ordinal='24' />
+            <column datatype='integer' name='Année : TLMP3604' ordinal='25' />
+            <column datatype='real' name='Note : TLMP3004' ordinal='26' />
+            <column datatype='string' name='Résultat : TLMP3004' ordinal='27' />
+            <column datatype='integer' name='Session : TLMP3004' ordinal='28' />
+            <column datatype='integer' name='Année : TLMP3004' ordinal='29' />
+            <column datatype='real' name='Note : TLMP4104' ordinal='30' />
+            <column datatype='string' name='Résultat : TLMP4104' ordinal='31' />
+            <column datatype='integer' name='Session : TLMP4104' ordinal='32' />
+            <column datatype='integer' name='Année : TLMP4104' ordinal='33' />
+            <column datatype='real' name='Note : TLMP4204' ordinal='34' />
+            <column datatype='string' name='Résultat : TLMP4204' ordinal='35' />
+            <column datatype='integer' name='Session : TLMP4204' ordinal='36' />
+            <column datatype='integer' name='Année : TLMP4204' ordinal='37' />
+            <column datatype='real' name='Note : TLMP4304' ordinal='38' />
+            <column datatype='string' name='Résultat : TLMP4304' ordinal='39' />
+            <column datatype='integer' name='Session : TLMP4304' ordinal='40' />
+            <column datatype='integer' name='Année : TLMP4304' ordinal='41' />
+            <column datatype='real' name='Note : TLMP4404' ordinal='42' />
+            <column datatype='string' name='Résultat : TLMP4404' ordinal='43' />
+            <column datatype='integer' name='Session : TLMP4404' ordinal='44' />
+            <column datatype='integer' name='Année : TLMP4404' ordinal='45' />
+            <column datatype='real' name='Note : TLMP4504' ordinal='46' />
+            <column datatype='string' name='Résultat : TLMP4504' ordinal='47' />
+            <column datatype='integer' name='Session : TLMP4504' ordinal='48' />
+            <column datatype='integer' name='Année : TLMP4504' ordinal='49' />
+            <column datatype='real' name='Note : TLMP4604' ordinal='50' />
+            <column datatype='string' name='Résultat : TLMP4604' ordinal='51' />
+            <column datatype='integer' name='Session : TLMP4604' ordinal='52' />
+            <column datatype='integer' name='Année : TLMP4604' ordinal='53' />
+            <column datatype='real' name='Note : TLMP4004' ordinal='54' />
+            <column datatype='string' name='Résultat : TLMP4004' ordinal='55' />
+            <column datatype='integer' name='Session : TLMP4004' ordinal='56' />
+            <column datatype='integer' name='Année : TLMP4004' ordinal='57' />
+            <column datatype='integer' name='Année' ordinal='58' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A3:BG1144:no:A3:BG1144:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COD_ETU</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COD_ETU]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>COD_ETU</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CNE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CNE]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>CNE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP3104</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP3104]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP3104</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP3104</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP3104]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP3104</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP3104</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP3104]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP3104</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP3104</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP3104]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP3104</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP3204</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP3204]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP3204</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP3204</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP3204]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP3204</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP3204</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP3204]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP3204</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP3204</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP3204]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP3204</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP3304</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP3304]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP3304</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP3304</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP3304]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP3304</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP3304</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP3304]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP3304</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP3304</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP3304]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP3304</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP3404</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP3404]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP3404</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP3404</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP3404]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP3404</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP3404</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP3404]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP3404</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP3404</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP3404]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP3404</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP3504</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP3504]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP3504</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP3504</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP3504]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP3504</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP3504</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP3504]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP3504</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP3504</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP3504]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP3504</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP3604</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP3604]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP3604</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP3604</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP3604]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP3604</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP3604</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP3604]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP3604</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP3604</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP3604]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP3604</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP3004</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP3004]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP3004</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP3004</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP3004]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP3004</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP3004</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP3004]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP3004</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP3004</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP3004]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP3004</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP4104</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP4104]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP4104</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP4104</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP4104]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP4104</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP4104</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP4104]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP4104</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP4104</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP4104]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP4104</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP4204</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP4204]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP4204</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP4204</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP4204]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP4204</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP4204</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP4204]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP4204</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP4204</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP4204]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP4204</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP4304</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP4304]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP4304</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP4304</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP4304]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP4304</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP4304</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP4304]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP4304</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP4304</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP4304]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP4304</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP4404</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP4404]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP4404</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP4404</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP4404]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP4404</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP4404</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP4404]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP4404</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP4404</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP4404]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP4404</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP4504</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP4504]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP4504</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP4504</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP4504]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP4504</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP4504</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP4504]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP4504</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP4504</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP4504]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP4504</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP4604</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP4604]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP4604</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP4604</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP4604]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP4604</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP4604</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP4604]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP4604</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP4604</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP4604]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP4604</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Note : TLMP4004</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Note : TLMP4004]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Note : TLMP4004</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Résultat : TLMP4004</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Résultat : TLMP4004]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Résultat : TLMP4004</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Session : TLMP4004</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Session : TLMP4004]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Session : TLMP4004</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année : TLMP4004</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année : TLMP4004]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année : TLMP4004</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année]</local-name>
+            <parent-name>[MIPC2 2014]</parent-name>
+            <remote-alias>Année</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Année : TLMP3004]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP3104]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP3204]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP3304]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP3404]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP3504]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP3604]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP4004]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP4104]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP4204]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP4304]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP4404]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP4504]' role='dimension' type='quantitative' />
+      <column datatype='integer' name='[Année : TLMP4604]' role='dimension' type='quantitative' />
+      <column caption='Année1' datatype='integer' name='[Année]' role='dimension' type='quantitative' />
+      <column caption='Cod Etu' datatype='integer' name='[COD_ETU]' role='measure' type='quantitative' />
+      <column caption='Résultat : TLMP30041' datatype='string' name='[Résultat : TLMP3004]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Résultat : TLMP3104]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Résultat : TLMP3204]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Résultat : TLMP3304]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Résultat : TLMP3404]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Résultat : TLMP3504]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Résultat : TLMP3604]' role='dimension' type='nominal' />
+      <column caption='Résultat : TLMP40041' datatype='string' name='[Résultat : TLMP4004]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Session : Semstre3' datatype='integer' name='[Session : TLMP3004]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Session : Semstre4' datatype='integer' name='[Session : TLMP4004]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='MIPC2 2014' datatype='table' name='[__tableau_internal_object_id__].[MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB]' role='measure' type='quantitative' />
+      <column-instance column='[Résultat : TLMP3004]' derivation='None' name='[none:Résultat : TLMP3004:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Résultat : TLMP3104]' derivation='None' name='[none:Résultat : TLMP3104:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Résultat : TLMP3204]' derivation='None' name='[none:Résultat : TLMP3204:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Résultat : TLMP3304]' derivation='None' name='[none:Résultat : TLMP3304:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Résultat : TLMP3404]' derivation='None' name='[none:Résultat : TLMP3404:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Résultat : TLMP3504]' derivation='None' name='[none:Résultat : TLMP3504:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Résultat : TLMP3604]' derivation='None' name='[none:Résultat : TLMP3604:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Résultat : TLMP4004]' derivation='None' name='[none:Résultat : TLMP4004:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Session : TLMP3004]' derivation='None' name='[none:Session : TLMP3004:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Session : TLMP4004]' derivation='None' name='[none:Session : TLMP4004:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Résultat : TLMP3004:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;V&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NV&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Résultat : TLMP4004:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;V&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NV&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Résultat : TLMP3604:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;V&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NRA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Résultat : TLMP3504:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;V&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NRA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Résultat : TLMP3404:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;V&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NRA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Résultat : TLMP3304:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;V&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NRA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Résultat : TLMP3204:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;V&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;VAD&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NV&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NRA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Résultat : TLMP3104:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;V&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NV&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;RAT&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NRA&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Session : TLMP3004:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Session : TLMP4004:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='MIPC2 2014' id='MIPC2 2014_AA2B9913A71D4691BABEB899AF5391AB'>
+            <properties context=''>
+              <relation connection='excel-direct.0f9xwil1cf2z4218kagk914834nq' name='MIPC2 2014' table='[&apos;MIPC2 2014$&apos;]' type='table'>
+                <columns gridOrigin='A3:BG1144:no:A3:BG1144:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='COD_ETU' ordinal='0' />
+                  <column datatype='integer' name='CNE' ordinal='1' />
+                  <column datatype='real' name='Note : TLMP3104' ordinal='2' />
+                  <column datatype='string' name='Résultat : TLMP3104' ordinal='3' />
+                  <column datatype='integer' name='Session : TLMP3104' ordinal='4' />
+                  <column datatype='integer' name='Année : TLMP3104' ordinal='5' />
+                  <column datatype='real' name='Note : TLMP3204' ordinal='6' />
+                  <column datatype='string' name='Résultat : TLMP3204' ordinal='7' />
+                  <column datatype='integer' name='Session : TLMP3204' ordinal='8' />
+                  <column datatype='integer' name='Année : TLMP3204' ordinal='9' />
+                  <column datatype='real' name='Note : TLMP3304' ordinal='10' />
+                  <column datatype='string' name='Résultat : TLMP3304' ordinal='11' />
+                  <column datatype='integer' name='Session : TLMP3304' ordinal='12' />
+                  <column datatype='integer' name='Année : TLMP3304' ordinal='13' />
+                  <column datatype='real' name='Note : TLMP3404' ordinal='14' />
+                  <column datatype='string' name='Résultat : TLMP3404' ordinal='15' />
+                  <column datatype='integer' name='Session : TLMP3404' ordinal='16' />
+                  <column datatype='integer' name='Année : TLMP3404' ordinal='17' />
+                  <column datatype='real' name='Note : TLMP3504' ordinal='18' />
+                  <column datatype='string' name='Résultat : TLMP3504' ordinal='19' />
+                  <column datatype='integer' name='Session : TLMP3504' ordinal='20' />
+                  <column datatype='integer' name='Année : TLMP3504' ordinal='21' />
+                  <column datatype='real' name='Note : TLMP3604' ordinal='22' />
+                  <column datatype='string' name='Résultat : TLMP3604' ordinal='23' />
+                  <column datatype='integer' name='Session : TLMP3604' ordinal='24' />
+                  <column datatype='integer' name='Année : TLMP3604' ordinal='25' />
+                  <column datatype='real' name='Note : TLMP3004' ordinal='26' />
+                  <column datatype='string' name='Résultat : TLMP3004' ordinal='27' />
+                  <column datatype='integer' name='Session : TLMP3004' ordinal='28' />
+                  <column datatype='integer' name='Année : TLMP3004' ordinal='29' />
+                  <column datatype='real' name='Note : TLMP4104' ordinal='30' />
+                  <column datatype='string' name='Résultat : TLMP4104' ordinal='31' />
+                  <column datatype='integer' name='Session : TLMP4104' ordinal='32' />
+                  <column datatype='integer' name='Année : TLMP4104' ordinal='33' />
+                  <column datatype='real' name='Note : TLMP4204' ordinal='34' />
+                  <column datatype='string' name='Résultat : TLMP4204' ordinal='35' />
+                  <column datatype='integer' name='Session : TLMP4204' ordinal='36' />
+                  <column datatype='integer' name='Année : TLMP4204' ordinal='37' />
+                  <column datatype='real' name='Note : TLMP4304' ordinal='38' />
+                  <column datatype='string' name='Résultat : TLMP4304' ordinal='39' />
+                  <column datatype='integer' name='Session : TLMP4304' ordinal='40' />
+                  <column datatype='integer' name='Année : TLMP4304' ordinal='41' />
+                  <column datatype='real' name='Note : TLMP4404' ordinal='42' />
+                  <column datatype='string' name='Résultat : TLMP4404' ordinal='43' />
+                  <column datatype='integer' name='Session : TLMP4404' ordinal='44' />
+                  <column datatype='integer' name='Année : TLMP4404' ordinal='45' />
+                  <column datatype='real' name='Note : TLMP4504' ordinal='46' />
+                  <column datatype='string' name='Résultat : TLMP4504' ordinal='47' />
+                  <column datatype='integer' name='Session : TLMP4504' ordinal='48' />
+                  <column datatype='integer' name='Année : TLMP4504' ordinal='49' />
+                  <column datatype='real' name='Note : TLMP4604' ordinal='50' />
+                  <column datatype='string' name='Résultat : TLMP4604' ordinal='51' />
+                  <column datatype='integer' name='Session : TLMP4604' ordinal='52' />
+                  <column datatype='integer' name='Année : TLMP4604' ordinal='53' />
+                  <column datatype='real' name='Note : TLMP4004' ordinal='54' />
+                  <column datatype='string' name='Résultat : TLMP4004' ordinal='55' />
+                  <column datatype='integer' name='Session : TLMP4004' ordinal='56' />
+                  <column datatype='integer' name='Année : TLMP4004' ordinal='57' />
+                  <column datatype='integer' name='Année' ordinal='58' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Feuille 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#0066cc' fontname='Tahoma,sans-serif' fontsize='14'>Résultat pour chaque module dans la Semestre 3 et 4 pour MIPC :</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='14'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2016+ (Connexions multiples)' name='federated.0hlrdir02f27sc1gzo5vo08jqeg9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlrdir02f27sc1gzo5vo08jqeg9'>
+            <column caption='Année1' datatype='integer' name='[Année]' role='dimension' type='quantitative' />
+            <column caption='Résultat : TLMP30041' datatype='string' name='[Résultat : TLMP3004]' role='dimension' type='nominal' />
+            <column caption='Résultat : TLMP40041' datatype='string' name='[Résultat : TLMP4004]' role='dimension' type='nominal' />
+            <column-instance column='[Résultat : TLMP3004]' derivation='Count' name='[cnt:Résultat : TLMP3004:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP4004]' derivation='Count' name='[cnt:Résultat : TLMP4004:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Année]' derivation='None' name='[none:Année:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP3004]' derivation='None' name='[none:Résultat : TLMP3004:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP4004]' derivation='None' name='[none:Résultat : TLMP4004:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3004:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Résultat : TLMP3004:nk]' member='&quot;AC&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3004:nk]' member='&quot;NV&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3004:nk]' member='&quot;V&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4004:nk]'>
+            <groupfilter from='&quot;AC&quot;' function='range' level='[none:Résultat : TLMP4004:nk]' to='&quot;V&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4004:nk]</column>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3004:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4004:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4004:nk]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3004:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3004:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4004:qk] + [federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3004:qk])</rows>
+        <cols>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]</cols>
+      </table>
+      <simple-id uuid='{B5813CDF-AB7F-46C6-B10B-27DCD85F6E48}' />
+    </worksheet>
+    <worksheet name='Feuille 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#0066cc' fontname='Tahoma,sans-serif'>Résultat pour chaque module dans la Semestre 3 pour MIPC :</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2016+ (Connexions multiples)' name='federated.0hlrdir02f27sc1gzo5vo08jqeg9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlrdir02f27sc1gzo5vo08jqeg9'>
+            <column caption='Année1' datatype='integer' name='[Année]' role='dimension' type='quantitative' />
+            <column datatype='string' name='[Résultat : TLMP3104]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP3204]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP3304]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP3404]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP3504]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP3604]' role='dimension' type='nominal' />
+            <column-instance column='[Résultat : TLMP3104]' derivation='Count' name='[cnt:Résultat : TLMP3104:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP3204]' derivation='Count' name='[cnt:Résultat : TLMP3204:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP3304]' derivation='Count' name='[cnt:Résultat : TLMP3304:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP3404]' derivation='Count' name='[cnt:Résultat : TLMP3404:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP3504]' derivation='Count' name='[cnt:Résultat : TLMP3504:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP3604]' derivation='Count' name='[cnt:Résultat : TLMP3604:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Année]' derivation='None' name='[none:Année:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP3104]' derivation='None' name='[none:Résultat : TLMP3104:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP3204]' derivation='None' name='[none:Résultat : TLMP3204:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP3304]' derivation='None' name='[none:Résultat : TLMP3304:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP3404]' derivation='None' name='[none:Résultat : TLMP3404:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP3504]' derivation='None' name='[none:Résultat : TLMP3504:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP3604]' derivation='None' name='[none:Résultat : TLMP3604:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3104:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Résultat : TLMP3104:nk]' member='&quot;AC&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3104:nk]' member='&quot;NRA&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3104:nk]' member='&quot;NV&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3104:nk]' member='&quot;RAT&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3104:nk]' member='&quot;V&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3204:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Résultat : TLMP3204:nk]' member='&quot;AC&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3204:nk]' member='&quot;NRA&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3204:nk]' member='&quot;NV&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3204:nk]' member='&quot;V&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3204:nk]' member='&quot;VAD&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3304:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Résultat : TLMP3304:nk]' member='&quot;AC&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3304:nk]' member='&quot;NRA&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3304:nk]' member='&quot;NV&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3304:nk]' member='&quot;V&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3404:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Résultat : TLMP3404:nk]' member='&quot;AC&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3404:nk]' member='&quot;NRA&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3404:nk]' member='&quot;NV&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3404:nk]' member='&quot;V&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3504:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Résultat : TLMP3504:nk]' member='&quot;AC&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3504:nk]' member='&quot;NRA&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3504:nk]' member='&quot;NV&quot;' />
+              <groupfilter function='member' level='[none:Résultat : TLMP3504:nk]' member='&quot;V&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3604:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Résultat : TLMP3604:nk]' member='%null%' />
+              <groupfilter from='&quot;AC&quot;' function='range' level='[none:Résultat : TLMP3604:nk]' to='&quot;V&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3604:nk]</column>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3504:nk]</column>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3404:nk]</column>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3304:nk]</column>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3204:nk]</column>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3104:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]' value='27' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='114' />
+                <format attr='maxheight' value='114' />
+                <format attr='minwidth' value='1144' />
+                <format attr='maxwidth' value='1144' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3204:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3204:nk]' />
+            </encodings>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3104:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3104:nk]' />
+            </encodings>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3304:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3304:nk]' />
+            </encodings>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3404:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3404:nk]' />
+            </encodings>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3504:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3504:nk]' />
+            </encodings>
+          </pane>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3604:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3604:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3604:qk] + ([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3504:qk] + ([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3404:qk] + ([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3304:qk] + ([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3204:qk] + [federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP3104:qk])))))</rows>
+        <cols>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]</cols>
+      </table>
+      <simple-id uuid='{4F11C87E-07EC-406A-8FF0-FC723F3F2412}' />
+    </worksheet>
+    <worksheet name='Feuille 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2016+ (Connexions multiples)' name='federated.0hlrdir02f27sc1gzo5vo08jqeg9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlrdir02f27sc1gzo5vo08jqeg9'>
+            <column caption='Année1' datatype='integer' name='[Année]' role='dimension' type='quantitative' />
+            <column datatype='string' name='[Résultat : TLMP4104]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP4204]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP4304]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP4404]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP4504]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Résultat : TLMP4604]' role='dimension' type='nominal' />
+            <column-instance column='[Résultat : TLMP4104]' derivation='Count' name='[cnt:Résultat : TLMP4104:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP4204]' derivation='Count' name='[cnt:Résultat : TLMP4204:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP4304]' derivation='Count' name='[cnt:Résultat : TLMP4304:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP4404]' derivation='Count' name='[cnt:Résultat : TLMP4404:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP4504]' derivation='Count' name='[cnt:Résultat : TLMP4504:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP4604]' derivation='Count' name='[cnt:Résultat : TLMP4604:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Année]' derivation='None' name='[none:Année:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Résultat : TLMP4104]' derivation='None' name='[none:Résultat : TLMP4104:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP4204]' derivation='None' name='[none:Résultat : TLMP4204:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP4304]' derivation='None' name='[none:Résultat : TLMP4304:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP4404]' derivation='None' name='[none:Résultat : TLMP4404:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP4504]' derivation='None' name='[none:Résultat : TLMP4504:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Résultat : TLMP4604]' derivation='None' name='[none:Résultat : TLMP4604:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4304:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4204:nk]' />
+            </encodings>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4104:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4104:nk]' />
+            </encodings>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4204:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4304:nk]' />
+            </encodings>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4404:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4404:nk]' />
+            </encodings>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4504:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4504:nk]' />
+            </encodings>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4604:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4604:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4604:qk] + ([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4504:qk] + ([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4404:qk] + ([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4204:qk] + ([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4304:qk] + [federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Résultat : TLMP4104:qk])))))</rows>
+        <cols>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]</cols>
+      </table>
+      <simple-id uuid='{CC01FFEE-7372-4EE5-8447-8D31AE7C01D3}' />
+    </worksheet>
+    <worksheet name='Feuille 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#0066cc' fontname='Tahoma,sans-serif' fontsize='18'>Résultat du semestre 3 et 4 par session :</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='18'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='2016+ (Connexions multiples)' name='federated.0hlrdir02f27sc1gzo5vo08jqeg9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0hlrdir02f27sc1gzo5vo08jqeg9'>
+            <column caption='Année1' datatype='integer' name='[Année]' role='dimension' type='quantitative' />
+            <column aggregation='Sum' caption='Session : Semstre3' datatype='integer' name='[Session : TLMP3004]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' caption='Session : Semstre4' datatype='integer' name='[Session : TLMP4004]' role='dimension' type='ordinal' />
+            <column-instance column='[Session : TLMP3004]' derivation='Count' name='[cnt:Session : TLMP3004:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Session : TLMP4004]' derivation='Count' name='[cnt:Session : TLMP4004:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Année]' derivation='None' name='[none:Année:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Session : TLMP3004]' derivation='None' name='[none:Session : TLMP3004:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Session : TLMP4004]' derivation='None' name='[none:Session : TLMP4004:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP3004:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Session : TLMP3004:ok]' member='1' />
+              <groupfilter function='member' level='[none:Session : TLMP3004:ok]' member='2' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP4004:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Session : TLMP4004:ok]' member='1' />
+              <groupfilter function='member' level='[none:Session : TLMP4004:ok]' member='2' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP4004:ok]</column>
+            <column>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP3004:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Session : TLMP4004:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP4004:ok]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Session : TLMP3004:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP3004:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Session : TLMP4004:qk] + [federated.0hlrdir02f27sc1gzo5vo08jqeg9].[cnt:Session : TLMP3004:qk])</rows>
+        <cols>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]</cols>
+      </table>
+      <simple-id uuid='{CE8E3D63-195B-4A61-B4CA-01FB5659894B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Feuille 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='2' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4004:nk]' type='color' />
+            <card pane-specification-id='3' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3004:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3004:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4004:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{78E2C025-537F-4A77-A8E1-BE2C767F5F1C}' />
+    </window>
+    <window class='worksheet' name='Feuille 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='11' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3604:nk]' type='color' />
+            <card pane-specification-id='10' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3504:nk]' type='color' />
+            <card pane-specification-id='9' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3404:nk]' type='color' />
+            <card pane-specification-id='8' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3304:nk]' type='color' />
+            <card pane-specification-id='2' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3204:nk]' type='color' />
+            <card pane-specification-id='7' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3104:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3104:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3204:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3304:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3404:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3504:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP3604:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6FCBFDC2-CC51-48B3-8C3F-BBD755C4EDCF}' />
+    </window>
+    <window class='worksheet' name='Feuille 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='10' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4604:nk]' type='color' />
+            <card pane-specification-id='9' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4504:nk]' type='color' />
+            <card pane-specification-id='8' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4404:nk]' type='color' />
+            <card pane-specification-id='7' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4304:nk]' type='color' />
+            <card pane-specification-id='2' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4204:nk]' type='color' />
+            <card pane-specification-id='6' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4104:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4104:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4204:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4304:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4404:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4504:nk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Résultat : TLMP4604:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{17571E0F-6099-45F4-B1C8-5A5317E41159}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Feuille 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='169'>
+            <card pane-specification-id='2' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP4004:ok]' type='color' />
+            <card pane-specification-id='3' param='[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP3004:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Année:qk]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP3004:ok]</field>
+            <field>[federated.0hlrdir02f27sc1gzo5vo08jqeg9].[none:Session : TLMP4004:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C1EEBC95-E0DD-4CDB-A6C5-714559237F19}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Feuille 1' width='192'>
+      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
+      redGo+MAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Feuille 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Feuille 3' width='192'>
+      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
+      JuwEB95p/n9WMqYZ/WU1WgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Feuille 4' width='192'>
+      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
+      YF0AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
